@@ -6,7 +6,7 @@ async function analyze() {
 
   const apiKey = "9d5c8380-0ebe-4d09-8983-fb785d9d2ab8";
   const endpoint = "https://kaliii.cognitiveservices.azure.com";
-  const modelId = "Medtech"; // <-- replace this with your real model ID
+  const modelId = "MedicalOCR"; // <-- replace this with your real model ID
 
   const url = `${endpoint}/formrecognizer/documentModels/${modelId}:analyze?api-version=2023-07-31`;
 
