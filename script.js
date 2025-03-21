@@ -4,7 +4,7 @@ async function analyze() {
 
   const file = fileInput.files[0];
 
-  const apiKey = "9d5c8380-0ebe-4d09-8983-fb785d9d2ab8";
+  const apiKey = "lKofhFkerlrVZBc0FoAjuIZ4jX7Y2O6wqN8o57o7tNsExWqnY2HbJQQJ99BCAC1i4TkXJ3w3AAALACOGvEb9";
   const endpoint = "https://kaliii.cognitiveservices.azure.com";
   const modelId = "MedicalOCR"; // <-- replace this with your real model ID
 
