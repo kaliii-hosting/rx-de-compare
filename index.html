@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rx vs DE Compare</title>
+  <script defer src="script.js"></script>
+  <style>
+    body { font-family: Arial; margin: 2rem; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    .mismatch { background-color: #ffe5e5; }
+    .match { background-color: #e5ffe5; }
+  </style>
+</head>
+<body>
+  <h1>Rx vs DE Field Comparison</h1>
+  <input type="file" id="fileInput" accept="application/pdf" />
+  <button onclick="analyze()">Analyze</button>
+  <div id="output"></div>
+</body>
+</html>
