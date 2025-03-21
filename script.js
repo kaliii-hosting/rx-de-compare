@@ -4,9 +4,9 @@ async function analyze() {
 
   const file = fileInput.files[0];
 
-  const apiKey = "YOUR_API_KEY";
-  const endpoint = "YOUR_ENDPOINT_URL";
-  const modelId = "YOUR_CUSTOM_MODEL_ID";
+  const apiKey = "9d5c8380-0ebe-4d09-8983-fb785d9d2ab8";
+  const endpoint = "https://kaliii.cognitiveservices.azure.com";
+  const modelId = "MedicalOCR"; // <-- replace this with your real model ID
 
   const url = `${endpoint}/formrecognizer/documentModels/${modelId}:analyze?api-version=2023-07-31`;
 
@@ -42,7 +42,7 @@ function compareFields(fields) {
     { label: "Patient Name", rx: "Rx PT Name", de: "DE PT Name" },
     { label: "DOB", rx: "Rx PT DOB", de: "DE PT DOB" },
     { label: "Drug", rx: "Rx Drug", de: "DE Drug" },
-    // Add more field mappings as needed
+    // Add more fields as needed
   ];
 
   let html = `<table><tr><th>Field</th><th>Rx</th><th>DE</th><th>Status</th></tr>`;
